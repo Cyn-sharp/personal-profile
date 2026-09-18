@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cyndrick Abejo | Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="loadingScreen" class="loading-screen">
+
+    <div class="loader-content">
+
+            <div class="morph-device" id="morphDevice">
+                <div class="phone-notch"></div>
+
+                <!-- Device screen -->
+                <div class="device-screen">
+
+                    <!-- Phone content -->
+                    <div class="screen-content phone-content">
+
+                        <div class="phone-camera"></div>
+
+                        <div class="screen-icon">C</div>
+
+                        <p>CYNRICK</p>
+
+                    </div>
+
+
+                    <!-- Monitor content -->
+                    <div class="screen-content monitor-content">
+
+                        <div class="code-line short"></div>
+                        <div class="code-line medium"></div>
+                        <div class="code-line long"></div>
+
+                        <div class="code-line medium"></div>
+                        <div class="code-line short"></div>
+
+                        <span class="code-cursor">_</span>
+
+                    </div>
+
+
+                    <!-- Laptop content -->
+                    <div class="screen-content laptop-content">
+
+                        <div class="laptop-welcome">
+                            <span>&lt;/&gt;</span>
+
+                            <p>
+                                Welcome to<br>
+                                <strong>Cyndrick's Portfolio</strong>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ======================================
+                LAPTOP BASE
+                ====================================== -->
+
+            <div
+                class="laptop-base"
+                id="laptopBase"
+            ></div>
+
+
+            <!-- ======================================
+                LOADING TEXT
+                ====================================== -->
+
+            <div class="loader-text">
+
+                <p class="loader-logo">
+                    CYN<span>.</span>
+                </p>
+
+                <p
+                    id="loadingMessage"
+                    class="loading-message"
+                >
+                    Starting up...
+                </p>
+
+            </div>
+
+
+            <!-- Device label -->
+
+            <p
+                id="deviceLabel"
+                class="device-label"
+            >
+                MOBILE
+            </p>
+
+        </div>
+
+    </div>
+    <!-- ================================
+         NAVIGATION
+    ================================= -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+
+            <a href="#home" class="nav-logo">
+                <span>Cyn</span>drick<span class="logo-dot">.</span>
+            </a>
+
+            <!-- Desktop navigation -->
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#stack">Stack</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <!-- Right side: theme toggle + GitHub -->
+            <div class="nav-right">
+
+                <!-- Theme toggle -->
+                <button
+                    type="button"
+                    id="themeToggle"
+                    class="theme-toggle"
+                    aria-label="Toggle dark mode"
+                >
+                    🌙
+                </button>
+
+                <!-- GitHub -->
+                <a
+                    href="https://github.com/Cyn-sharp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="nav-github"
+                >
+                    GitHub
+                </a>
+
+            </div>
+
+            <!-- Mobile menu button -->
+            <button
+                type="button"
+                id="hamburger"
+                class="hamburger"
+                aria-label="Open navigation menu"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+        <!-- Mobile navigation -->
+        <div id="mobileMenu" class="mobile-menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#stack">Stack</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+            <!-- Mobile theme toggle -->
+            <button
+                type="button"
+                id="themeToggleMobile"
+                class="theme-toggle-mobile"
+            >
+                🌙 Toggle Theme
+            </button>
+
+            <a
+                href="https://github.com/Cyn-sharp"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                GitHub
+            </a>
+        </div>
+    </nav>
+    <!-- ================================
+         HEADER / HERO
+    ================================= -->
+    <header id="home" class="hero">
+
+        <div class="hero-glow hero-glow-one"></div>
+        <div class="hero-glow hero-glow-two"></div>
+
+        <div class="hero-container">
+
+            <!-- Profile photo -->
+            <div class="hero-photo-section">
+
+                <div class="photo-wrapper" id="photoWrapper">
+
+                    <img
+                        src="images/me.jpeg"
+                        alt="Cyndrick Abejo profile photo"
+                        class="profile-photo normal-photo"
+                    >
+
+                    <!-- Cool GIF / video -->
+                    <img
+                        src="images/rizz.gif"
+                        alt="Cyndrick Abejo animated profile"
+                        class="profile-photo cool-photo"
+                    >
+
+                    <!-- Keep Hover Me -->
+                    <div class="hover-hint">
+                        Hover me
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Hero information -->
+            <div class="hero-content">
+                <p class="hero-greeting">
+                    Hey, I'm
+                </p>
+
+                <h1>
+                    Cyndrick<span> Abejo.</span>
+                </h1>
+
+                <p class="hero-role">
+                    <span class="code-bracket">{</span>
+
+                    <span id="typewriter"></span>
+
+                    <span class="typewriter-cursor">|</span>
+
+                    <span class="code-bracket">}</span>
+                </p>
+
+                <p class="hero-description">
+                    Computer Engineering student passionate about building
+                    useful, practical, and real-world applications through
+                    software development.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn btn-primary">
+                        View My Work
+                    </a>
+
+                    <a href="files/Resume - Cyndrick Abejo.pdf" target="_blank" class="btn btn-secondary">
+                        Download CV
+                    </a>
+
+                    <a
+                        href="https://github.com/Cyn-sharp"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-secondary"
+                    >
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Scroll indicator -->
+        <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+            <span></span>
+        </a>
+
+    </header>
+    <main>
+
+        <!-- ================================
+             ABOUT ME
+        ================================= -->
+        <section id="about" class="about-section">
+
+            <div class="section-container">
+
+                <h2>
+                    Who am I<span class="accent">?</span>
+                </h2>
+
+
+                <div class="about-content">
+
+                    <!-- Bio -->
+                    <div class="about-text">
+
+                        <p>
+                            I'm a Computer Engineering student exploring the
+                            world of full stack development. I enjoy building
+                            applications that combine clean interfaces with
+                            practical functionality.
+                        </p>
+
+                        <p>
+                            I work with both frontend and backend technologies,
+                            from designing interfaces in Figma to building APIs,
+                            connecting databases, and deploying applications.
+                            Every project I build gives me an opportunity to
+                            learn something new.
+                        </p>
+
+                    </div>
+
+
+                    <!-- Quick facts -->
+                    <div class="facts-grid">
+
+                        <div class="fact-card">
+                            <p class="fact-label">Role</p>
+                            <p class="fact-value">
+                                Full Stack Developer
+                            </p>
+                        </div>
+
+                        <div class="fact-card">
+                            <p class="fact-label">Status</p>
+                            <p class="fact-value">
+                                Computer Engineering Student
+                            </p>
+                        </div>
+
+                        <div class="fact-card">
+                            <p class="fact-label">Focus</p>
+                            <p class="fact-value">
+                                Real World Applications
+                            </p>
+                        </div>
+
+                        <div class="fact-card">
+                            <p class="fact-label">Learning</p>
+                            <p class="fact-value">
+                                Always
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="more-about">
+
+    <!-- Gallery heading -->
+    <div class="gallery-heading">
+
+        <p class="section-label"></p>
+
+        <h3>
+            Beyond the <span class="accent">Code</span>.
+        </h3>
+
+        <p>
+            A few things that make me more than just someone who sits in front of a computer.
+        </p>
+
+    </div>
+
+
+    <!-- Three photo cards -->
+    <div class="photo-gallery">
+
+        <!-- PHOTO 1 -->
+        <article class="photo-card">
+
+            <div class="gallery-image-wrapper">
+
+                <img
+                    src="images/about-1.jpg"
+                    alt="Cyndrick working on a coding project"
+                    class="gallery-image"
+                >
+
+                <!-- Image number -->
+                <span class="photo-number">
+                    01 / 03
+                </span>
+
+                <!-- Hover overlay -->
+                <div class="photo-overlay">
+
+                    <button
+                        type="button"
+                        class="view-photo"
+                        data-image="images/about-1.jpg"
+                        data-title="Coding & Projects"
+                    >
+                        View Photo
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Card information -->
+            <div class="photo-info">
+
+                <h4>GARBO Presentation defended</h4>
+
+                <p>
+                    Successfully defended my GARBO Presentation, showcasing my ability to communicate technical concepts effectively.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- PHOTO 2 -->
+        <article class="photo-card">
+
+            <div class="gallery-image-wrapper">
+
+                <img
+                    src="images/about-2.jpg"
+                    alt="Cyndrick enjoying time outside"
+                    class="gallery-image"
+                >
+
+                <span class="photo-number">
+                    02 / 03
+                </span>
+
+                <div class="photo-overlay">
+
+                    <button
+                        type="button"
+                        class="view-photo"
+                        data-image="images/about-3.jpg"
+                        data-title="With teammates and profs"
+                    >
+                        View Photo
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="photo-info">
+
+                <h4>UConvertIT Successful presentation</h4>
+
+                <p>
+                    Successfully presented UConvertIT, demonstrating my ability to create practical applications that   solve real-world problems.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- PHOTO 3 -->
+        <article class="photo-card">
+
+            <div class="gallery-image-wrapper">
+
+                <img
+                    src="images/about-4.jpg"
+                    alt="Cyndrick enjoying gaming during free time"
+                    class="gallery-image"
+                >
+
+                <span class="photo-number">
+                    03 / 03
+                </span>
+
+                <div class="photo-overlay">
+
+                    <button
+                        type="button"
+                        class="view-photo"
+                        data-image="images/about-4.jpg"
+                        data-title="Got my first persona"
+                    >
+                        View Photo
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="photo-info">
+
+                <h4>Won a lottery</h4>
+
+                <p>
+                    Won my first persona without having to pull money on my pockets.
+                </p>
+
+            </div>
+
+        </article>  
+    </div>
+        </div>
+
+                <section id="stack" class="stack-section">
+
+                    <div class="section-container">
+
+                        <p class="section-label">
+                        </p>
+
+                        <h2>
+                            What I <span class="accent">work with</span>.
+                        </h2>
+
+                        <p class="stack-subtitle">
+                            The tools I use to bring ideas to life
+                        </p>
+
+                    </div>
+
+
+                    <!-- =============================
+                        MARQUEE (moving stack)
+                    ============================== -->
+                    <div class="marquee-wrapper">
+
+                        <!-- Fading edges -->
+                        <div class="marquee-fade left"></div>
+                        <div class="marquee-fade right"></div>
+
+                        <div class="marquee">
+
+                            <div class="marquee-track">
+
+                                <!-- The list is written TWICE
+                                    so the loop is seamless -->
+
+                                <!-- Set 1 -->
+                                <span class="marquee-item">
+                                    <i class="devicon-react-original colored"></i>
+                                    React •
+                                </span>
+
+                                <span class="marquee-item">
+                                    <i class="devicon-javascript-plain colored"></i>
+                                    JavaScript •
+                                </span>
+
+                                <span class="marquee-item">
+                                    <i class="devicon-csharp-plain colored"></i>
+                                    C# •
+                                </span>
+
+                                <span class="marquee-item">
+                                    <i class="devicon-python-plain colored"></i>
+                                    Python •
+                                </span>
+
+                                <span class="marquee-item">
+                                    <i class="devicon-c-plain colored"></i>
+                                    C •
+                                </span>
+
+                                <span class="marquee-item">
+                                    <i class="devicon-supabase-plain colored"></i>
+                                    Supabase •
+                                </span>
+
+                                <span class="marquee-item">
+                                    <i class="devicon-mysql-plain colored"></i>
+                                    MySQL •
+                                </span>
+
+                                <span class="marquee-item">
+                                    <i class="devicon-figma-plain colored"></i>
+                                    Figma •
+                                </span>
+
+
+                                <!-- Set 2 (duplicate) -->
+                                <span class="marquee-item">
+                                    <i class="devicon-react-original colored"></i>
+                                    React •
+                                </span>
+
+                                <span class="marquee-item">
+                                    <i class="devicon-javascript-plain colored"></i>
+                                    JavaScript •
+                                </span>
+
+                                <span class="marquee-item">
+                                    <i class="devicon-csharp-plain colored"></i>
+                                    C# •
+                                </span>
+
+                                <span class="marquee-item">
+                                    <i class="devicon-python-plain colored"></i>
+                                    Python •
+                                </span>
+
+                                <span class="marquee-item">
+                                    <i class="devicon-c-plain colored"></i>
+                                    C •
+                                </span>
+
+                                <span class="marquee-item">
+                                    <i class="devicon-supabase-plain colored"></i>
+                                    Supabase •
+                                </span>
+
+                                <span class="marquee-item">
+                                    <i class="devicon-mysql-plain colored"></i>
+                                    MySQL •
+                                </span>
+
+                                <span class="marquee-item">
+                                    <i class="devicon-figma-plain colored"></i>
+                                    Figma •
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- =============================
+                        TRIED & EXPLORED
+                    ============================== -->
+                    <div class="section-container explored">
+
+                        <p class="section-label">
+                        </p>
+
+                        <h3 class="explored-title">
+                            Tried & <span class="accent">explored</span>.
+                        </h3>
+
+                        <p class="explored-subtitle">
+                            Not mastered (yet) — but I've experimented with these
+                            and I'm always open to learning more.
+                        </p>
+
+
+                        <!-- Pills are filled by JavaScript -->
+                        <div class="pills" id="pills"></div>
+
+
+                        <p class="explored-note">
+                            + always learning more
+                        </p>
+
+                    </div>
+
+                </section>
+
+        <!-- ================================
+        PROJECTS
+        ================================= -->
+        <section id="projects" class="projects-section">
+
+            <div class="section-container">
+                <h2>
+                    What I've <span class="accent">built</span>.
+                </h2>
+
+
+                <!-- ============================
+                    PROJECT 1 — UConvertIT
+                ============================= -->
+                <article class="project-card">
+
+                    <!-- Featured badge -->
+                    <span class="project-badge badge-featured">
+                        Featured
+                    </span>
+
+                    <div class="project-grid">
+
+                        <!-- Left: text info -->
+                        <div class="project-info">
+
+                            <p class="project-tagline">
+                                Your All-in-One Academic Power Tool
+                            </p>
+
+                            <h3 class="project-title">
+                                UConvertIT
+                            </h3>
+
+                            <p class="project-description">
+                                An AI-powered academic productivity tool built for
+                                students. Features a Paraphraser, PDF Converter,
+                                Humanizer, Quiz Maker, and OCR — all in one platform.
+                                Built to make studying smarter and faster.
+                            </p>
+
+                            <!-- Tech tags -->
+                            <div class="tech-tags">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Supabase</span>
+                                <span class="tech-tag">Python</span>
+                            </div>
+
+                            <!-- Buttons -->
+                            <div class="project-buttons">
+
+                                <a
+                                    href="https://u-convertit-frontend.vercel.app/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="btn btn-primary"
+                                >
+                                    Live Demo
+                                </a>
+
+                                <a
+                                    href="https://github.com/Cyn-sharp"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="btn btn-secondary"
+                                >
+                                    View Code
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Right: image carousel -->
+                        <div class="carousel" data-carousel>
+
+                            <div class="carousel-track">
+
+                                <img
+                                    src="images/uconvertit-1.png"
+                                    alt="UConvertIT screenshot 1"
+                                    class="carousel-image active"
+                                >
+
+                                <img
+                                    src="images/uconvertit-2.png"
+                                    alt="UConvertIT screenshot 2"
+                                    class="carousel-image"
+                                >
+
+                            </div>
+
+                            <!-- Navigation buttons -->
+                            <button
+                                type="button"
+                                class="carousel-btn prev"
+                                data-prev
+                                aria-label="Previous image"
+                            >
+                                ‹
+                            </button>
+
+                            <button
+                                type="button"
+                                class="carousel-btn next"
+                                data-next
+                                aria-label="Next image"
+                            >
+                                ›
+                            </button>
+
+                            <!-- Dots -->
+                            <div class="carousel-dots"></div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ============================
+                    PROJECT 2 — GARBO
+                ============================= -->
+                <article class="project-card">
+
+                    <!-- Design badge -->
+                    <span class="project-badge badge-design">
+                        Design
+                    </span>
+
+                    <div class="project-grid">
+
+                        <!-- Left: text info -->
+                        <div class="project-info">
+
+                            <p class="project-tagline">
+                                Smart Waste Collection App — UI/UX Design
+                            </p>
+
+                            <h3 class="project-title">
+                                GARBO
+                            </h3>
+
+                            <p class="project-description">
+                                A mobile app design concept for modern waste
+                                management. Features a dual-user experience — residents
+                                can track collection schedules, report issues, and view
+                                live trucks, while collectors get a dedicated dashboard
+                                to manage routes and report problems.
+                            </p>
+
+                            <!-- Tech tags -->
+                            <div class="tech-tags">
+                                <span class="tech-tag tag-pink">Figma</span>
+                                <span class="tech-tag tag-pink">UI/UX</span>
+                                <span class="tech-tag tag-pink">Mobile Design</span>
+                            </div>
+
+                            <!-- Buttons -->
+                            <div class="project-buttons">
+
+                                <a
+                                    href="https://www.figma.com/design/MBzsadyU0hqHW6Ljm15jqg/SOFTWARE-APPLICATION-V2"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="btn btn-pink"
+                                >
+                                    View in Figma
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Right: image carousel -->
+                        <div class="carousel" data-carousel>
+
+                            <div class="carousel-track">
+
+                                <img
+                                    src="images/garbo-1.png"
+                                    alt="GARBO screenshot 1"
+                                    class="carousel-image active"
+                                >
+
+                                <img
+                                    src="images/garbo-2.png"
+                                    alt="GARBO screenshot 2"
+                                    class="carousel-image"
+                                >
+
+                                <img
+                                    src="images/garbo-3.png"
+                                    alt="GARBO screenshot 3"
+                                    class="carousel-image"
+                                >
+
+                            </div>
+
+                            <!-- Navigation buttons -->
+                            <button
+                                type="button"
+                                class="carousel-btn prev"
+                                data-prev
+                                aria-label="Previous image"
+                            >
+                                ‹
+                            </button>
+
+                            <button
+                                type="button"
+                                class="carousel-btn next"
+                                data-next
+                                aria-label="Next image"
+                            >
+                                ›
+                            </button>
+
+                            <!-- Dots -->
+                            <div class="carousel-dots"></div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <!-- ============================
+                    PROJECT 1 — UConvertIT
+                ============================= -->
+                <article class="project-card">
+
+                    <!-- Featured badge -->
+                    <span class="project-badge badge-under-development">
+                        Under Development
+                    </span>
+
+                    <div class="project-grid">
+
+                        <!-- Left: text info -->
+                        <div class="project-info">
+
+                            <p class="project-tagline">
+                                Your All-in-One Academic Power Tool
+                            </p>
+
+                            <h3 class="project-title">
+                                QuestGo
+                            </h3>
+
+                            <p class="project-description">
+                                QuestGo is a platform that connects CIT-U students who need help with tasks to other students who are willing to complete those tasks for a reward. Students can post, browse, and accept “Quests,” then communicate and coordinate meetups through the platform. The system tracks the Quest from Available → Accepted → In Progress → Completed, with unaccepted Quests expiring after 30 minutes. It also includes features such as COD, ratings, notifications, reporting, and blocking to make the platform safer and more organized.
+                            </p>
+                </article>
+
+            </div>
+
+        </section>
+
+            </main>
+
+
+            <!-- ================================
+                FOOTER / CONTACT
+            ================================= -->
+            <footer id="contact" class="footer">
+
+                <div class="footer-container">
+
+                    <div class="footer-text">
+
+                        <p class="section-label">
+                        </p>
+
+                        <h2>
+                            Let's connect<span class="accent">.</span>
+                        </h2>
+
+                        <p>
+                            Interested in working together or just want to say hello?
+                            Feel free to reach out.
+                        </p>
+
+                    </div>
+
+
+                    <!-- Required GitHub / LinkedIn / Email links -->
+                    <div class="social-links">
+
+                        <a
+                            href="https://github.com/Cyn-sharp"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                        </a>
+
+                        <a
+                            href="mailto:your-email@example.com"
+                        >
+                            Email
+                        </a>
+
+                        <!-- Replace with your actual LinkedIn -->
+                        <a
+                            href="https://www.linkedin.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            LinkedIn
+                        </a>
+
+                    </div>
+
+
+                    <div class="footer-bottom">
+                        <p>
+                            © 2026 Cyndrick Abejo. Built with HTML, CSS & JavaScript.
+                        </p>
+                    </div>
+
+        </div>
+    
+    </footer>
+    <div
+        id="photoLightbox"
+        class="photo-lightbox"
+        aria-hidden="true"
+        >
+
+            <div class="lightbox-content">
+
+                <button
+                    type="button"
+                    id="lightboxClose"
+                    class="lightbox-close"
+                    aria-label="Close photo"
+                >
+                    ×
+                </button>
+
+                <img
+                    id="lightboxImage"
+                    class="lightbox-image"
+                    src=""
+                    alt=""
+                >
+
+                <p
+                    id="lightboxTitle"
+                    class="lightbox-title"
+                ></p>
+
+            </div>
+
+        </div>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
