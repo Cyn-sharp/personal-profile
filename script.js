@@ -18,17 +18,7 @@ const navbar = document.getElementById("navbar");
 */
 
 window.addEventListener("scroll", () => {
-
-    if (window.scrollY > 50) {
-
-        navbar.classList.add("scrolled");
-
-    } else {
-
-        navbar.classList.remove("scrolled");
-
-    }
-
+    navbar.classList.toggle("scrolled", window.scrollY > 50);
 });
 
 
@@ -67,9 +57,7 @@ hamburger.addEventListener("click", () => {
    CLOSE MOBILE MENU AFTER CLICKING A LINK
    ========================================================= */
 
-const mobileLinks =
-    mobileMenu.querySelectorAll("a");
-
+const mobileLinks = mobileMenu.querySelectorAll("a");
 
 mobileLinks.forEach((link) => {
 
@@ -93,23 +81,11 @@ const typewriter =
     document.getElementById("typewriter");
 
 
-/*
-    Words that will appear in the hero.
-
-    The typewriter will cycle through
-    these words one by one.
-*/
-
 const words = [
- 
     "Computer Engineering student",
-
     "Aspiring Web Developer",
-
     "Problem Solver",
-
     "Forever a yearner"
-
 ];
 
 
@@ -859,3 +835,20 @@ function toggleTheme() {
 themeToggle.addEventListener("click", toggleTheme);
 
 themeToggleMobile.addEventListener("click", toggleTheme);
+
+// Scroll Reveal Animation
+const revealElements = document.querySelectorAll('.reveal');
+
+const revealOnScroll = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+        }
+    });
+}, {
+    threshold: 0.1 // Triggers when 10% of the element is visible
+});
+
+revealElements.forEach(el => {
+    revealOnScroll.observe(el);
+});

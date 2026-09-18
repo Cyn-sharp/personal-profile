@@ -236,7 +236,8 @@ body.dark-mode .theme-toggle:hover {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: visible;
     padding: 100px 24px 60px;
     background: var(--background);
 }
@@ -1746,4 +1747,17 @@ body.dark-mode .theme-toggle:hover {
     .project-buttons .btn {
         width: 100%;
     }
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    filter: blur(5px);
+    transition: all 0.9s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0px);
 }
